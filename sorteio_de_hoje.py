@@ -51,6 +51,7 @@ def mostrar_historico():
         for chave, valor in contagem_vitorias.items():
             print(f"{chave.capitalize()}: {valor}")
 
+#Deve editar apenas os valores para selecionar os participantes. Pode adicionar mais se quiser. mas lembre sempre te deixar a chave e o valor em "" se não irá dar erro.
 def definir_participantes():
     return {
         "1": "exercicio",
